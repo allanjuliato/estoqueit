@@ -14,6 +14,10 @@ var schema = mongoose.Schema({
 
     descricao : {
         type: String,
+    },
+
+    qtdmin: {
+        type: Number,
     }
 })
 
